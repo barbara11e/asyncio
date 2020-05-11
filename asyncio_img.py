@@ -26,7 +26,7 @@ logger = logging.getLogger(__name__)
 
 HOST_ADDR = 'http://142.93.138.114/images/'
 
-def get_img_urls(url: HOST_ADDR) -> list:
+def get_img_urls(url=HOST_ADDR) -> list:
     '''
         Request list of image names & returns images urls
 
